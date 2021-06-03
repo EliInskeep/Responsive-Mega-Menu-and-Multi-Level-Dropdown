@@ -12,3 +12,63 @@ body {
   color: #ffffff;
   min-height: 100vh;
 }
+
+/* Header */
+.header {
+  background: #122331;
+  position: relative;
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items li {
+  padding: 0.5rem 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.menu-items li:hover {
+  background-color: #ff652f;
+}
+
+.section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section h1 {
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  line-height: 6vw;
+  color: #427dad;
+  text-transform: uppercase;
+}
